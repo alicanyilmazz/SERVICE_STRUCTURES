@@ -12,9 +12,4 @@
     <ProjectReference Include="..\WebService\WebService.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Managers\CardServiceManager\EsbServiceManager\" />
-    <Folder Include="Managers\CardServiceManager\WebServiceManager\" />
-  </ItemGroup>
-
 </Project>
