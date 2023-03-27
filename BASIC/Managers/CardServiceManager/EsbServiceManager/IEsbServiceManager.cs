@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BASIC.Managers.CardServiceManager.EsbServiceManager
 {
-    public interface IEsbServiceManager
+    public interface IEsbServiceManager : ICardServiceManager
     {
         public CardValidationResponse ValidateDebitCardRequest(CardValidationRequest request);
         public DoCashWithDrawalResponse DoCash(DoCashWithDrawalRequest request);
