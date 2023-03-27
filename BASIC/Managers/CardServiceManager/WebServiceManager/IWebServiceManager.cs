@@ -7,7 +7,7 @@ using WebService.Entities.Common;
 
 namespace BASIC.Managers.CardServiceManager.WebServiceManager
 {
-    public interface IWebServiceManager : ICardServiceManager
+    public interface IWebServiceManager
     {
         public CardValidationResponse ValidateDebitCardRequest(CardValidationRequest request);
     }
