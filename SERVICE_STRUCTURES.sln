@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BASIC", "BASIC\BASIC.csproj", "{B56C5749-FC21-470D-AA6B-6C6E784967DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BASIC", "BASIC\BASIC.csproj", "{B56C5749-FC21-470D-AA6B-6C6E784967DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GENERIC", "GENERIC\GENERIC.csproj", "{9598FC7C-B98B-47B7-88AF-942E5395185A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GENERIC", "GENERIC\GENERIC.csproj", "{9598FC7C-B98B-47B7-88AF-942E5395185A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsbService", "EsbService\EsbService.csproj", "{92DC9EDE-4045-4EBA-8FFB-3CBB775FB48E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsbService", "EsbService\EsbService.csproj", "{92DC9EDE-4045-4EBA-8FFB-3CBB775FB48E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{7BB41AAC-53EC-4E59-BCCF-2E32E3DB63AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebService", "WebService\WebService.csproj", "{7BB41AAC-53EC-4E59-BCCF-2E32E3DB63AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM", "ORM\ORM.csproj", "{89005EE4-23C0-42D8-9655-222516014026}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7BB41AAC-53EC-4E59-BCCF-2E32E3DB63AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BB41AAC-53EC-4E59-BCCF-2E32E3DB63AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BB41AAC-53EC-4E59-BCCF-2E32E3DB63AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89005EE4-23C0-42D8-9655-222516014026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89005EE4-23C0-42D8-9655-222516014026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89005EE4-23C0-42D8-9655-222516014026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89005EE4-23C0-42D8-9655-222516014026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
